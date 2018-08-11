@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="89"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="posts"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="980"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="followers"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:text="320"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="following"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:text="Edit Profile"
+            android:layout_alignLeft="@+id/layout1"
+            android:layout_alignRight="@+id/layout1"
+            android:layout_below="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+    </RelativeLayout>
+    <TextView
+        android:text="Your Name"
+        android:layout_marginTop="9dp"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Your bio goes here... and here too.."
+        android:layout_marginTop="9dp"
+        android:textSize="14sp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="23dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_card_membership_black_24dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/ic_card_membership_black_24dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/ic_card_membership_black_24dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/ic_card_membership_black_24dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="7dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="3dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="3dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="3dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/ic_launcher"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
