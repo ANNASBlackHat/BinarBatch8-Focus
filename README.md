@@ -13,7 +13,7 @@ Pada pertemuan awal yang membahas tentang android, kita mulai dengan penjelasan 
 
 ### SESI 8
 Pada sesi kali ini sudah mulai masuk coding Java, fokusnya adalah pada Listview & Recyclerview.
-Download SLIDE --> https://slides.com/annasblackhat/list-recycler-view/edit
+Download SLIDE --> https://slides.com/annasblackhat/list-recycler-view
 - Penjelasan Tentang ListView
 - Penjelasan tentang Recyclerview
 - Komponen yang wajib di buat saat menggunakan ListView ataupun Recyclerview
