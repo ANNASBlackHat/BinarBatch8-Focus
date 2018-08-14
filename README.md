@@ -12,7 +12,7 @@ Pada pertemuan awal yang membahas tentang android, kita mulai dengan penjelasan 
 - Challenge membuat layout Instagram
 
 ### SESI 8
-Pada sesi kali ini sudah mulai masuk coding Java, fokusnya adalah pada Listview & Recyclerview
+Pada sesi kali ini sudah mulai masuk coding Java, fokusnya adalah pada Listview & Recyclerview.
 Download SLIDE --> https://slides.com/annasblackhat/list-recycler-view/edit
 - Penjelasan Tentang ListView
 - Penjelasan tentang Recyclerview
