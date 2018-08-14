@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         myDB = Room.databaseBuilder(getApplicationContext(), MyDatabase.class, "news_app.db")
                 .addMigrations(DbMigration.Migration_1_2)
+//                .fallbackToDestructiveMigration() //berfungsi untuk me-recreate database saat versi berbeda
                 .build();
 
         btnSave.setOnClickListener(new View.OnClickListener() {
